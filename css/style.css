@@ -1,0 +1,73 @@
+.transform{
+  transform:translate(0,-18px);
+}
+.icon{
+  transform: translateY(10px);
+}
+.box1 .row .k .row .col-8 p{
+  color:black;
+
+}
+.box1 .row .k .row .col-8 span{
+  color:gray;
+}
+.buttom{
+  transform:translate(0,-40px);
+}
+li{
+  list-style: none;
+  color: white;
+}
+.card {
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.color{
+  background-color:rgba(27, 27, 200, 0.6)!important;
+  height:100vh !important;
+  width: 100vw !important;
+}
+
+@keyframes example {
+  0% { background-color: gainsboro; }
+  50% { background-color:lightblue}
+  100% { background-color:  gainsboro; }
+}
+.card:hover{
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,0.6);
+}
+button:hover{
+  transform:
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,0.6);
+
+}
+
+
+@media (max-width:485px) {
+  
+    .col-lg-6,.col-lg-4 {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding-top: 10px;
+       
+     } 
+     .img{
+             background-image: url('image2.jpg');
+               width: 100%;
+               height: 100%;
+  
+               background-size: cover;
+             }
+       .font{
+         font-size: smaller;
+       }
+       #section5 .line1{
+         width: 300px;
+       }
+       ul li{
+        font-size:10px ;
+       }
+     }

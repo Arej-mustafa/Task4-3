@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <style>
+        .img{
+            background-image: url('computer1.jpg');
+              width: 100vw;
+              height: 100vh;
+              background-size: cover;
+              background-position:center;
+            }
+
+    .line{
+        width: 100%;
+        height:1px;
+        background-color:gray;
+}
+    p,.navbar-brand ,.navbar-toggler,h1,.nav-link,.button1 {
+      color: white;
+    }
+    .custom-btn {
+            background-color: blue;
+            color: white;
+            border:2px solid blue;
+        }
+
+        .custom-btn.active {
+            background-color:blue;
+            border:2px solid blue; 
+        }
+        .carousel {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carousel-items {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel-items img {
+  width: 100%;
+  height: auto;
+}
+    </style>
+    <div class="img" >
+       <div class="color" >
+        <div class="boxx " style="background-color:rgba(27, 27, 200, 0.3);height: 50px;" >
+          <div class="copyright1">
+            <div class="row " style="display: flex;align-items:center ;justify-content: center;" >
+                <div class=" col-lg-8 col-md-8 col-sm-12 ">
+                  <ul style="display: flex;flex-direction: row;gap:20px;">
+                    <li><i class="fa-regular fa-circle-question"></i> have a quastion?</li>
+                    <li><i class="fa-solid fa-phone-flip"></i> +422 566</li>
+                    <li><i class="fa-regular fa-envelope"></i> info@mydomin.com</li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12  " style="gap: 10px;display: flex; ;justify-content: center;">
+                  <ul style="display: flex;flex-direction: row;gap:20px">
+                    <li ><i class="fa-solid fa-envelope"></i> log in</li>
+                    <li><i class="fa-solid fa-user"></i> register</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+    <nav class="navbar navbar-expand-lg" style="position:fixed;top:50px ;background-color:rgba(27, 27, 200, 0.3);width: 100vw;z-index:10;" >
+      <div class="container-fluid  " >
+          <div class="bb" style="display:flex ;">
+            <a class="navbar-brand " href="#" style="padding-left:20px;">Learner</a>
+          </div>
+          <button  class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation" >
+            <i class="fa-solid fa-bars text-light"></i>
+          </button>
+          </div>
+        <div class="collapse navbar-collapse active " id="navbarScroll">
+          <div class="row  d-flex justify-content-between align-items-center " style="width:1000px;">
+            <div class="col-lg-12 ">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" >
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"  style="color: white;">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"  href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu " aria-labelledby="navbarScrollingDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: white;">Our staff</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link disabled" style="color: white;">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" style="color: white;">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" style="color: white;">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" style="color: white;">Contact</a>
+                </li>
+                <form style="padding-left:180px ;" >
+                  <button class=" button1 btn btn-info" style="height:50px ;width:150px;border-radius:20px; ;">ENROLL NOW</button>
+                </form>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+        </div>
+    <section class="hero-section  " style="width: 100vw;" >
+        <div class="hero-content ">
+          <div class="container d-flex flex-column justify-content-center align-items-center" style="height: 650px;row-gap:10px;">
+            <p style="text-align: center;">WATCH THE VIDEO</p>
+          <h1 style="text-align: center;">Education is the Mother of Leadership</h1>
+          <a class="btn btn-info btn-lg " href="#" role="button" style="color: white;border-radius: 20px;">EXPLORE COURSES</a>
+          </div>
+        </div>
+    </section>
+       </div>
+    </div>
+    <section id="section1"   style=" width: 100vw;">
+      <div class="container d-flex flex-column justify-content-center align-items-center">
+          <div class="row">
+            <div class="col-12">
+              <h2  style="color: blue;text-align: center;">Browse Top Category</h2>
+            </div>
+          </div>        
+          <div class="row g-4 mt-2"  >
+            <div class="col-lg-3 col-md-6 col-sm-12 k">
+              <div class="card" style="height:100px ;width: 200px;background-color:  gainsboro;">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="fa-solid fa-atom icon" style="color:blue;"></i>
+                    </div>
+                    <div class="col-8">
+                      <p class="mb-1">Seience</p>
+                      <span >1.391 courses</span> 
+                    </div> 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 k">
+              <div class="card " style="height:100px ;width:200px; background-color:  gainsboro;">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-2">
+                      <i  class="fa-solid fa-briefcase icon" style="color: blue;"></i>
+                    </div>
+                    <div class="col-8">
+                      <p class="mb-1">Business</p>
+                      <span >3.234 courses</span> 
+                    </div> 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 k">
+              <div class="card" style="height:100px ;width:200px ;background-color:  gainsboro;">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="fa-solid fa-calculator icon"  style="color: blue;"></i>
+                    </div>
+                    <div class="col-8">
+                      <p class="mb-1">Finance Accounting</p>
+                      <span  >931 courses</span> 
+                    </div> 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 k">
+              <div class="card " style="height:100px;width:200px ;background-color:  gainsboro;">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="fa-solid fa-pencil icon" style="color: blue;"></i>
+                    </div>
+                    <div class="col-8">
+                      <p class="mb-1">Design</p>
+                      <span >7.291 courses</span> 
+                    </div> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container d-flex flex-column justify-content-center align-items-center">
+            <div class="row g-4 mt-2 mb-5"  >
+              <div class="col-lg-3 col-md-6 col-sm-12 k">
+                <div class="card" style="height:100px ;width: 200px;background-color:  gainsboro;">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="fa-solid fa-chart-simple icon" style="color: blue;"></i>
+                      </div>
+                      <div class="col-8">
+                        <p class="mb-1">Music</p>
+                        <span >9,114 courses</span> 
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 k">
+                <div class="card" style="height:100px ;width:200px; background-color:  gainsboro;">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="fa-solid fa-flask icon"style="color: blue;"></i>
+                      </div>
+                      <div class="col-8">
+                        <p class="mb-1">Marketing</p>
+                        <span >2,391 courses</span> 
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 k">
+                <div class="card" style="height:100px ;width:200px ;background-color:  gainsboro;">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="fa-solid fa-camera icon"style="color: blue;"></i>
+                      </div>
+                      <div class="col-8">
+                        <p class="mb-1">photography</p>
+                        <span >7,991 courses</span> 
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 k">
+                <div class="card " style="height:100px;width:200px ;background-color:  gainsboro;">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="fa-solid fa-layer-group icon" style="color: blue;"></i>
+                      </div>
+                      <div class="col-8 l">
+                        <p class="mb-1">Animation</p>
+                        <span >6,491 courses</span> 
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <p class="text-secondary " style="text-align: center;width:60%;">we have more category here. <a href="#" class="text-primary">Browse all</a></p>
+          </div>
+      </div>
+   </section>
+
+      
+        <section id="section2 " style="background-color:  gainsboro;">
+            <div class="container" style="display: flex;justify-content:center;align-items:center ;">
+              <div class="row g-4 d-flex" >
+                <div class="col-lg-7 col-md-5 col-sm-5 " >
+                  <h2 style="color:blue ;">Become an Instructor</h2>
+                  <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quod asperiores nemo quaerat similique quis sit sint accusamus odit laborum fuga debitis rerum suscipit, illum laudantium, facere ipsum, molestiae dolorem!</p>
+                 
+                  <p style="color: black;"><i class="fa-solid fa-check " style="color:blue;"></i>   behind the world mountaines.</p>
+                  <p style="color: black;"><i class="fa-solid fa-check" style="color:blue;"></i>   Far far away mountains.</p>
+                  <p style="color: black;"><i class="fa-solid fa-check" style="color:blue;"></i>   Large language Ocean.</p>
+                  <a class="btn btn-lg mb-5" href="#" role="button" style=" background:blue;color:  white;border-radius:20px;height:40px;font-size: 15px;font-weight:500px;">GET STARTED</a>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5" >
+                        <img src="girl.jpg" class="transform ml-3 " style="width:265px ;height:375px ;">
+                </div>
+        
+              </div>
+              </div>
+            </div>
+        </section>
+        <section id="box">
+          <div class="container pt-3 mb-5" >        
+            <div class="j" style="display:flex ;align-items: center;flex-direction:column ;margin-top:50px;margin-bottom: 30px;">
+             <h2 style="color:blue">We Have Best Education</h2>
+             <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptas nostrum illo tenetur maiores ad similique dolorem necessitatibus cum aut architecto</p>
+             <p style="color: black;"> maxime esse cumque laudantium consectetur repellendus quae assumenda, optio eaque? Totam, vero.</p>
+            </div>
+            <div class="row g-4 mt-2"  >
+              <div class="col-lg-4 col-md-6 col-sm-12 k">
+                <div class="card">
+                  <div class="card-body" style="display: flex;justify-content: center;align-items: center;flex-direction:column ;gap:10px;">
+                    <div class="card-title " style="color: blue;height:50px;">
+                      <i class="fa-solid fa-music icon pb-2" style="color: blue; transform: translateX(10px);"></i>
+                      <h6 style=" transform: translateX(-20px);">Music Class</h6>
+                    </div>
+                    <div class="card-text">
+                      <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ullam expedita maiores voluptates similique quaerat nam,
+                       in aliquid veritatis cum!</p></div>
+                  </div>
+                </div>
+              </div> 
+        
+              <div class="col-lg-4 col-md-6 col-sm-12 k">
+                <div class="card">
+                  <div class="card-body" style="display: flex;justify-content: center;align-items: center;flex-direction:column ;gap:10px;">
+                    <div class="card-title " style="color: blue;height:50px;">
+                      <i  class="fa-solid fa-calculator icon pb-2" style="color: blue; transform: translateX(10px);"></i>
+                      <h6 style=" transform: translateX(-20px);">Math Class</h6>
+                    </div>
+                    <div class="card-text">
+                      <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ullam expedita maiores voluptates similique quaerat nam,
+                       in aliquid veritatis cum!</p></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 k">
+                <div class="card">
+                  <div class="card-body" style="display: flex;justify-content: center;align-items: center;flex-direction:column ;gap:10px;">
+                    <div class="card-title " style="color: blue;height:50px;">
+                      <i class="fa-solid fa-book-open icon pb-2" style="color: blue; transform: translateX(10px);"></i>
+                      <h6 style=" transform: translateX(-20px);">English Class</h6>
+                    </div>
+                    <div class="card-text">
+                      <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ullam expedita maiores voluptates similique quaerat nam,
+                       in aliquid veritatis cum!</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="row g-4 mt-2"  >
+              <div class="col-lg-4 col-md-6 col-sm-12 k">
+                <div class="card">
+                  <div class="card-body" style="display: flex;justify-content: center;align-items: center;flex-direction:column ;gap:10px;">
+                    <div class="card-title " style="color: blue;height:50px;">
+                      <i class="fa-solid fa-book icon pb-2" style="color: blue; transform: translateX(10px);"></i>
+                      <h6 style=" transform: translateX(-20px);">History Class</h6>
+                    </div>
+                    <div class="card-text">
+                      <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ullam expedita maiores voluptates similique quaerat nam,
+                       in aliquid veritatis cum!</p></div>
+                  </div>
+                </div>
+              </div> 
+        
+              <div class="col-lg-4 col-md-6 col-sm-12 k">
+                <div class="card">
+                  <div class="card-body" style="display: flex;justify-content: center;align-items: center;flex-direction:column ;gap:10px;">
+                    <div class="card-title " style="color: blue;height:50px;">
+                      <i  class="fa-solid fa-briefcase icon pb-2" style="color: blue; transform: translateX(10px);"></i>
+                      <h6 style=" transform: translateX(-20px);">Reading for Kids </h6>
+                    </div>
+                    <div class="card-text">
+                      <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ullam expedita maiores voluptates similique quaerat nam,
+                       in aliquid veritatis cum!</p></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 k">
+                <div class="card">
+                  <div class="card-body" style="display: flex;justify-content: center;align-items: center;flex-direction:column ;gap:10px;">
+                    <div class="card-title " style="color: blue;height:50px;">
+                      <i  class="fa-solid fa-headphones pb-2 icon" style="color: blue; transform: translateX(7px);"></i>
+                      <h6 style=" transform: translateX(-10px);">Music </h6>
+                    </div>
+                    <div class="card-text">
+                      <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ullam expedita maiores voluptates similique quaerat nam,
+                       in aliquid veritatis cum!</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+       
+          <section id="box5 " style="background-color: gainsboro;padding-top:50px;padding-bottom: 50px;width: 100vw;">
+            <div class="container" style="display:flex ;align-items: center;flex-direction:column ;">
+              <div class="j" style="display:flex ;align-items: center;flex-direction:column ;">
+                <h2 style="color:blue">The Right Course For You</h2>
+                <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit.onsequatur molestias,consectetur adipisicing elit.onsequatur molestias </p>
+               </div>
+               <div class="row g-4" >
+                 <div class="col-lg-4 col-md-6 col-sm-12">
+                     <div class="card" style="width: 18rem;">
+                     <img src="computer8.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <div class="row">
+                         <div class="col-9">
+                           <p style="color: blue;"><i class="fa-solid fa-book " style="color: blue;"></i> 43 lesson</p>
+                         </div>
+                         <div class="col-3">
+                           <p style="color:orange ;"><i  class="fa-solid fa-briefcase " style="color: orange;"></i>  4.8</p> 
+                         </div>
+                         <h5 style="color:black ;">Education Program Title</h5>
+                       </div>
+                       <p class="card-text" style="color:gray ;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <div class="line"></div>
+                       <div class="row">
+                         <div class="col-7">
+                           <h6 style="color: black;">$87.00</h6>
+                         </div>
+                         <div class="col-5">
+                           <p style="color:blue ;"> Learn More</p> 
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col-lg-4 col-md-6 col-sm-12">
+                   <div class="card" style="width: 18rem;">
+                   <img src="computer6.jpg" class="card-img-top" alt="...">
+                   <div class="card-body">
+                     <div class="row">
+                       <div class="col-9">
+                         <p style="color: blue;"><i class="fa-solid fa-book " style="color: blue;"></i> 43 lesson</p>
+                       </div>
+                       <div class="col-3">
+                         <p style="color:orange ;"><i  class="fa-solid fa-briefcase " style="color: orange;"></i>  4.8</p> 
+                       </div>
+                       <h5 style="color:black ;">Education Program Title</h5>
+                     </div>
+                     <p class="card-text" style="color:gray ;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     <div class="line"></div>
+                     <div class="row">
+                       <div class="col-7">
+                         <h6 style="color: black;">$87.00</h6>
+                       </div>
+                       <div class="col-5">
+                         <p style="color:blue ;"> Learn More</p> 
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div> 
+               <div class="col-lg-4 col-md-6 col-sm-12">
+                 <div class="card" style="width: 18rem;">
+                 <img src="computer7.jpg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <div class="row">
+                     <div class="col-9">
+                       <p style="color: blue;"><i class="fa-solid fa-book " style="color: blue;"></i> 43 lesson</p>
+                     </div>
+                     <div class="col-3">
+                       <p style="color:orange ;"><i  class="fa-solid fa-briefcase " style="color: orange;"></i>  4.8</p> 
+                     </div>
+                     <h5 style="color:black ;">Education Program Title</h5>
+                   </div>
+                   <p class="card-text" style="color:gray ;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                   <div class="line"></div>
+                   <div class="row">
+                     <div class="col-7">
+                       <h6 style="color: black;">$87.00</h6>
+                     </div>
+                     <div class="col-5">
+                       <p style="color:blue ;"> Learn More</p> 
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div> 
+            </div>      
+  
+          </section>
+          <section id="Education">
+            <div class="img">
+              <div class="color">
+                <div class="row d-flex align-items-center justify-content-center " style="padding-top:200px ;">
+                  <div class="col-7">
+                    <h2 class="text-light" style="text-align:center ;">Education for Tomorrow's leaders</h2>
+                      <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae officia labore ratione amet ullam distinctio praesentium. Culpa ratione ab corporis, deserunt eos iste corrupti illo ad non consectetur nihil at!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+<section id="about us">
+  <div class="container"  style="display: flex;justify-content:center;align-items:center ;width: 100vw;">
+    <div class="row">
+      <div class="col-lg-7 col-md-5 col-sm-5 " >
+        <h2 style="color:blue ;">About us</h2>
+        <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quod asperiores nemo quaerat similique quis sit sint accusamus odit laborum fuga debitis rerum suscipit, illum laudantium, facere ipsum, molestiae dolorem!</p>
+ 
+        <p style="color: black;"><i class="fa-solid fa-check " style="color:blue;"></i>   behind the world mountaines.</p>
+        <p style="color: black;"><i class="fa-solid fa-check" style="color:blue;"></i>   Far far away mountains.</p>
+        <p style="color: black;"><i class="fa-solid fa-check" style="color:blue;"></i>   Large language Ocean.</p>
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <p style="color: blue;">204+</p>
+            <p  style="color: black;">NO.students</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <p style="color: blue;">0</p>
+            <p  style="color: black;">NO.students</p>
+          </div>
+          <div class="col-lg-1  col-md-4 col-sm-6">
+            <p style="color: blue;">0</p>
+            <p  style="color: black;">NO.students</p>
+          </div>
+        </div>
+       </div>
+
+      <div class="col-lg-4 col-md-5 col-sm-7" >
+         <div class="container" style="transform:translate(0,-100px);">
+          <div class="colors"  style="background-color:rgba(27, 27, 200, 0.6);transform:translate(60px,150px);width:200px;height:180px;"></div>
+          <video width="200px" height="180px" style="z-index:5 ;position:relative ;" controls autoplay>
+            <source src="https://www.youtube.com/watch?v=qL-ry_tz6V0.mp4" type="video/mp4">
+          </video>
+       </div>
+         </div>
+
+
+    </div>
+  </div>
+
+</section>
+
+  <section class=" School News" style="background-color:  gainsboro;">        
+    <div class="container" >
+      <h2 style="color:blue;text-align: center;">School News</h2>
+      <p style="color: black;text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea illo asperiores sequi nostrum odit, perferendis sapiente doloribus maiores quae eum laborum pariatur placeat, earum dicta aliquam exercitationem quia sit quisquam.</p>
+         <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 ">
+              <div class="card mb-3" style="max-width: 500px;">
+                <div class="row g-0">
+                  <div class=" col-md-4 col-md-4">
+                    <img
+                      src="computer8.jpg"
+                      alt=""
+                      class="img-fluid rounded-start"
+                      style="height:270px;width: 500px;"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Education for Tomorrow's Leaders</h5>
+                      <p style="color:gray ;"><i class="fa-solid fa-file-medical" style="color:gray ;"></i> June 22 ,2020<i class="fa-solid fa-user" style="color:gray ;"></i> Admin</p>
+                      <p class="card-text" style="color: black;">
+                        This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.
+                      </p>
+                      <p class="card-text" style="color: blue;">
+                        Learn More
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="col-lg-6 col-md-12  col-sm-12 ">
+                <div class="card mb-3" style="max-width: 500px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="computer2.jpg"
+                        alt=""
+                        class="img-fluid rounded-start"
+                        style="height:270px;width: 500px;"
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Enroll Your Kids This Summer To get 30% off</h5>
+                        <p style="color:gray ;"><i class="fa-solid fa-file-medical" style="color:gray ;"></i> June 22 ,2020<i class="fa-solid fa-user" style="color:gray ;"></i> Admin</p>
+                        <p class="card-text" style="color: black;">
+                          This is a wider card with supporting text below as a natural lead-in to
+                          additional content. This content is a little bit longer.
+                        </p>
+                        <p class="card-text" style="color: blue;">
+                          Learn More
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+         </div>
+        </div>
+    </div>
+</section>
+    <section class="Pricing pb-5" style="width:100vw;">        
+      <div class="container">
+       <h2 style="color:blue;text-align: center;">Pricing</h2>
+       <p style="color: black;text-align: center;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, optio aliquam? Doloremque excepturi nihil accusantium ad consequuntur. Quod, adipisci deserunt magni rerum cum soluta dolores perferendis minima, blanditiis eos nobis. </p>
+      <div class="row g-4" >
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title" style="color: blue;">
+                <h5 >Premium</h5>
+                <span >$99.99/month</span> 
+              </div>
+              <div class="card-text">
+                <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ullam expedita maiores voluptates similique quaerat nam,
+                 in aliquid veritatis cum!</p></div>
+              
+              <button class="btn custom-btn" data-toggle="button" aria-pressed="false" autocomplete="off">GET STARTED</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title" style="color: blue;">
+                <h5 >Premium</h5>
+                <span >$99.99/month</p></span> 
+              </div>
+              <div class="card-text">
+                <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ullam expedita maiores voluptates similique quaerat nam,
+                 in aliquid veritatis cum!</p></div>
+              
+                 <button class="btn custom-btn" data-toggle="button" aria-pressed="false" autocomplete="off">GET STARTED</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title" style="color: blue;">
+                <h5 >Premium</h5>
+                <span >$99.99/month</p></span> 
+              </div>
+              <div class="card-text">
+                <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ullam expedita maiores voluptates similique quaerat nam,
+                  in aliquid veritatis cum!</p></div>
+              
+                <button class="btn custom-btn" data-toggle="button" aria-pressed="false" autocomplete="off">GET STARTED</button>
+            </div>
+          </div>
+        </div>
+      </div> 
+  </section>
+
+<section id="Testimonials" style="background-color:gainsboro;width:100vw;">
+    <div class="container" >
+      <div class="row">
+        <div class="col-12">
+          <h2  style="color: blue;text-align: center;">Testimonials</h2>
+                <p style="color:black ;text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eos, placeat veritatis quod sed aspernatur repudiandae dolorum rem quos provident eveniet eaque corporis, similique modi commodi consequuntur voluptas enim delectus?</p>
+        </div>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" style="padding-bottom:80px ;">
+        <div class="carousel-indicators ">
+          <button style="background-color: blue;border-radius:50%;width:10px;height: 10px;"type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button style="background-color: blue;border-radius:50%;width:10px;height: 10px;" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button  style="background-color: blue;border-radius:50%;width:10px;height: 10px;" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+          <div class="container">
+            <div class="carousel-item active " style="height:150px;" >
+              <div class="page1 " style="display:flex ;flex-direction: column;align-items: center;">
+                  <img src="image9.jpg" class="d-block" alt="" style="width:100px;height:100px;border-radius: 50%;box-shadow:2px 2px 2px 2px gray;">
+                  <h5 style="color:blue ;">John Doe</h5>
+                  <P style="color:black ;">CEO,Founder</P>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="height:150px;" >
+            <div class="page2" style="display: flex;align-items:center ;justify-content: center;flex-direction: column;">
+               <img src="bussiness man 5.png" width="100px" height="150px"/>
+            </div>
+          </div>
+          <div class="carousel-item" style="height:150px;padding-top:50px;" >
+            <button class="btn custom-btn mt-5" data-toggle="button" aria-pressed="false" autocomplete="off">Download</button>
+
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  
+</section>
+               
+
+  <section class="section5 mt-5 g-4 mb-5" style="height:min-content;width:100vw;">
+            <div class="container">
+              <div class="row d-flex g-4" >
+                <div class="col-lg-4 col-md-6 ">
+                  <div class="imgs" >
+                    <img src="computer5.jpg" style="width:300px;height:250px;">
+                    </div>
+                 </div>
+                <div class="col-lg-8 col-md-6  " >
+                  <h2 style="color:blue ;">Why Choose Us</h2>
+                  <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab facere ipsum laboriosam maxime excepturi, vel reprehenderit, fugit neque, adipisci deleniti doloremque. Ratione nesciunt quaerat provident iure qui omnis voluptatum maiores?</p>
+                  <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                         God teacher and Staffs
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                          <div class="row mt-6 ">
+                            <div class="col-lg-3 col-md-12 col-sm-12">
+                              <img src="computer8.jpg" alt="..." style="width:175px;height: 200px;"/>
+                            </div>
+                            <div class="col-lg-7 col-md-12 col-sm-12  ">
+                              <p style="color:black ;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit eos atque iste accusantium numquam laudantium, repellendus qui animi soluta earum facere, suscipit natus doloremque, minus tempora vero aspernatur omnis iusto.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo" >
+                          We Value Good Characters
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          <div class="row mt-6 ">
+                            <div class="col-lg-3 col-md-12 col-sm-12">
+                              <img src="computer7.jpg" alt="..." style="width:175px;height: 200px;"/>
+                            </div>
+                            <div class="col-lg-7 col-md-12 col-sm-12  ">
+                              <p style="color:black ;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit eos atque iste accusantium numquam laudantium, repellendus qui animi soluta earum facere, suscipit natus doloremque, minus tempora vero aspernatur omnis iusto.</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          Your children are Safe
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          <div class="row mt-6 ">
+                            <div class="col-lg-3 col-md-12 col-sm-12">
+                              <img src="computer5.jpg" alt="..." style="width:175px;height: 200px;"/>
+                            </div>
+                            <div class="col-lg-7  col-md-12 col-sm-12  ">
+                              <p style="color:black ;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit eos atque iste accusantium numquam laudantium, repellendus qui animi soluta earum facere, suscipit natus doloremque, minus tempora vero aspernatur omnis iusto.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+  </section>
+  <footer id="footer " style="background-color: blue;height:max-content;width:100vw;" >
+          <div class="container pb-5 pt-5">
+            <div class="row ">
+             <div class="col-lg-3 mb-4" style="display: flex;align-items: center;justify-content: center;flex-direction:column ;">
+              <h5 class="text-light" >About as</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam itaque aut neque libero ducimus cum quo dicta voluptatum, odio explicabo aliquam aliquid similique sapiente nulla ipsa suscipit nobis ab pariatur!</p>
+              <p>connect</p>
+              <div class="row">
+                <div class="col mb-4">
+                  <i class="fa-brands fa-instagram  " style="color: white;" ></i> <i class="fa-brands fa-twitter " style="margin-left:5px ;color: white;"></i><i class="fa-brands fa-facebook-f " style="margin-left:5px ;color: white;"></i><i class="fa-brands fa-linkedin-in "style="margin-left:5px ;color: white;"></i><i class="fa-brands fa-github " style="margin-left:5px ;color: white;"></i><i class="fa-brands fa-snapchat " style="margin-left:5px ;color: white;"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-1 d-flex align-items-center justify-content-center flex-column mb-4">
+              <h5 class="text-light " >Projects</h5>
+              <div class="skills " style="text-align: center;" >
+                <p  class="text-secondary ">Web Design</p>
+                <p  class="text-secondary">HTML5</p>
+                <p  class="text-secondary">CSS3</p>
+                <p  class="text-secondary">jQuery</p>
+                <p  class="text-secondary">Bootstrap</p>
+              </div>
+            </div>
+              <div class="col-lg-4  d-flex flex-column align-items-center justify-content-center mb-4" >
+                <h5 class="text-light" style="text-align:center ;">Gallery</h5>
+                  <div class="row g-3" style="width:310px">
+                    <div class="col-lg-4 col-md-4 col-sm-5">
+                      <img src="computer1.jpg" style="width: 100px;height: 100px;"/>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-5">
+                      <img src="computer2.jpg" style="width: 100px;height: 100px;"/>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-5">
+                      <img src="computer5.jpg" style="width: 100px;height: 100px;"/>
+                    </div>
+                    <div class="col-lg-4  col-md-4 col-sm-5">
+                      <img src="computer6.jpg" style="width: 100px;height: 100px;"/>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-5">
+                      <img src="computer7.jpg" style="width: 100px;height: 100px;"/>
+                    </div>
+                    <div class="col-lg-4 col-md-4  col-sm-5">
+                      <img src="computer8.jpg" style="width: 100px;height: 100px;"/>
+                    </div>
+                  </div>
+                 </div>
+            <div class="col-lg-4  d-flex flex-column align-items-center justify-content-center mb-4" >
+              <h4 class="text-light" >Contact</h4>
+              <div class="container   d-flex flex-column align-items-center justify-content-center;">      
+                <p>43 Raymounth Rd.Baitemoer,london 3910</p>
+                <p style="color: gray;">+938458554</p>
+                <p style="color: gray;">info@mydomin.com</p>
+              </div>
+            </div>
+            </div>
+          </div>
+  </footer>
+  <div class="copyright "  style="background-color: blue;width: 100vw;">
+   
+    <div class="container  d-flex flex-column align-items-center justify-content-center;" >
+      <p>copyright@2023.All Rights Reserved.__Designed With love by Untree.co Distributed By ThemeWagon</p>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
